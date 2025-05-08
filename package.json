@@ -1,0 +1,31 @@
+{
+    "name": "resourse-sharing-mini-project",
+    "version": "1.0.0",
+    "description": "No description et",
+    "main": "index.js",
+    "scripts": {
+        "test": "test",
+        "start": "node index.js",
+        "dev": "nodemon index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/TIPUzee/resourse-sharing-mini-project-asadullah.git"
+    },
+    "keywords": [
+        "VitualResourseSharing"
+    ],
+    "author": "Asad Ullah",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/TIPUzee/resourse-sharing-mini-project-asadullah/issues"
+    },
+    "homepage": "https://github.com/TIPUzee/resourse-sharing-mini-project-asadullah#readme",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^5.1.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.10"
+    }
+}
