@@ -3,6 +3,7 @@
     "version": "1.0.0",
     "description": "No description et",
     "main": "index.js",
+    "type": "commonjs",
     "scripts": {
         "test": "test",
         "start": "node index.js",
@@ -23,7 +24,9 @@
     "homepage": "https://github.com/TIPUzee/resourse-sharing-mini-project-asadullah#readme",
     "dependencies": {
         "cors": "^2.8.5",
-        "express": "^5.1.0"
+        "express": "^5.1.0",
+        "mongoose": "^8.14.2",
+        "multer": "^1.4.5-lts.2"
     },
     "devDependencies": {
         "nodemon": "^3.1.10"
